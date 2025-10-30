@@ -15,7 +15,7 @@ const Index = () => {
       
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
+        <section className="relative h-[95vh] flex items-center justify-center overflow-hidden">
           <img 
             src={heroImage} 
             alt="Hero" 
@@ -30,7 +30,7 @@ const Index = () => {
               Minimalist men's fashion for the bold
             </p>
             <Link to="/collections">
-              <Button size="lg" variant="secondary" className="font-medium">
+              <Button size="lg" variant="secondary" className="font-medium mt-4">
                 Shop Collection
               </Button>
             </Link>

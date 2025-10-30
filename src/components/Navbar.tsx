@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-background border-b border-border">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="text-xl font-bold tracking-tight hover:opacity-70 transition-opacity">
+          <Link to="/" className="text-xl font-bold tracking-tight hover:opacity-70 transition-opacity capitalize">
             rex rainment's
           </Link>
 
@@ -28,7 +28,7 @@ const Navbar = () => {
               <Link
                 key={link.to}
                 to={link.to}
-                className="text-sm font-medium hover:text-accent transition-colors"
+                className="capitalize text-sm font-medium hover:text-accent transition-colors"
               >
                 {link.label}
               </Link>
