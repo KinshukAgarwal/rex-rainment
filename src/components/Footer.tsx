@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold mb-4 capitalize">rex rainment's</h3>
+            <h3 className="font-bold mb-4 capitalize">rex raiment's</h3>
             <p className="text-sm text-muted-foreground">
               Modern men's fashion for the bold and minimal.
             </p>
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2024 rex rainment's. All rights reserved.</p>
+          <p>© 2024 rex raiment's. All rights reserved.</p>
         </div>
       </div>
     </footer>
